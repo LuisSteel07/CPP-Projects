@@ -1,0 +1,3 @@
+C:/Users/samsung/Documents/Ejercicios/C/Aerolinea/cmake-build-debug/CMakeFiles/Aerolinea.dir
+C:/Users/samsung/Documents/Ejercicios/C/Aerolinea/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/samsung/Documents/Ejercicios/C/Aerolinea/cmake-build-debug/CMakeFiles/rebuild_cache.dir
