@@ -1,7 +1,7 @@
 #include "Interfaz.h"
 
 void StartMenu(Departamento AllDepartementos[], int TLDepartamentos){
-    char select[2];
+    char select;
     int i = 0;
 
     while(i == 0){
@@ -17,7 +17,7 @@ void StartMenu(Departamento AllDepartementos[], int TLDepartamentos){
         printf("8- Salir\n\n");
         printf("-> ");
         fflush(stdin);
-        gets(select);
+        gets(&select);
 
         if(!(ValidarOperacion(select, 1, 8))){
             printf("\nValor Invalido\n");

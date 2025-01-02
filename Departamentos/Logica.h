@@ -1,10 +1,7 @@
 #ifndef LOGICA_H
 #define LOGICA_H
 
-#include <stdio.h>
 #include <stdbool.h>
-#include <ctype.h>
-#include <string.h>
 
 // Definición de la estructura Estado
 typedef enum {
@@ -60,7 +57,7 @@ bool ValidarOperacion(char input[], int min, int max);
 
 bool ValidarPalabra(char palabra[]);
 
-bool ValidarNumero(char palabra[]);
+bool ValidarNumero(char palabra);
 
 int asignacionEnMes(Departamento depto[], int TLDepartamentos, int mes);
 

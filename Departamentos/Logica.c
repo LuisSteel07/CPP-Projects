@@ -1,4 +1,8 @@
 #include "Logica.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
 // Funcion para validar operacion de seleccion
 bool ValidarOperacion(char palabra[], int min, int max){
@@ -28,14 +32,11 @@ bool ValidarPalabra(char palabra[]){
 }
 
 // Funcion para validar Numeros
-bool ValidarNumero(char palabra[]){
-    int cant = strlen(palabra), j;
+bool ValidarNumero(char palabra){
     bool inter = false;
 
-    for(j = 0; j < cant; j++){
-        if(isalpha(palabra[j])){
-            inter = true;
-        }
+    if(isalpha(palabra)){
+        inter = true;
     }
 
     return inter;
@@ -60,7 +61,7 @@ void AgregarMedioBasico(Departamento *depto,char tipo[],int estado ,int mes){
 
 // Función para mostrar los medios básicos de un departamento por estado
 void mostrarMediosPorEstado(Departamento *depto) {
-    int optimos = 0, deteriorados = 0, rotos = 0, i = 0;
+    int optimos = 0, deteriorados = 0, rotos = 0, i;
 
     for(i = 0; i < depto->cantMediosBasicos; i++){
         switch (depto->mediosBasicos[i].estado){
@@ -80,7 +81,7 @@ void mostrarMediosPorEstado(Departamento *depto) {
 
 // Función para encontrar el departamento con más medios básicos rotos
 Departamento* deptoConMasRotos(Departamento deptos[], int cantDeptos) {
-    int maxRotos = 0, i = 0, j = 0;
+    int maxRotos = 0, i, j;
     Departamento *deptoMaxRotos = NULL;
 
     for (i = 0; i < cantDeptos; i++) {
@@ -123,7 +124,7 @@ Departamento* encontrarDepartamentoPorMedio(Departamento deptos[], int cantDepto
 
 // Función para determinar si se ha efectuado alguna asignación de algún medio básico a un departamento en un mes específico
 int asignacionEnMes(Departamento depto[], int TLDepartamentos, int mes) {
-     int i, j, cantidad;
+     int i, j, cantidad = 0;
 
      for(i = 0; i < TLDepartamentos; i++){
          for(j = 0; j < depto[i].cantMediosBasicos; j++){
