@@ -1,15 +1,18 @@
 # C/C++ Projects
 
 ## Departamentos
+Este ejercicio trata de un programa en C el cual debera de enumerar los elementos en diferentes estados de deterioro.
 
----
+Estos se pueden encontrar en diferentes departamentos, los cuales tiene a su jefe y una cantidad determinada de 
+trabajadores.
 
-Info en progreso...
+En el programa se pueden listar los departamentos y mostrar sus detalles
+
+Tambiés de crearlos automáticamente o manualmente. Además de poder mostrar cual es el departamento con más elementos en
+deterioro y otras opciones que se pueden encontrar.
 
 
 ## Aerolínea
-
----
 Este ejercicio consta de crear un programa en C++ donde el usuario puede escoger en que sección quiere sentarse en el 
 avión (Fumador o No fumador). 
 
