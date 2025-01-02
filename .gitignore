@@ -1,4 +1,5 @@
-./Aerolinea/cmake-build-debug
-./Aerolinea/.idea
+Aerolinea/cmake-build-debug
+Aerolinea/.idea
 
-./Departamentos
+Departamentos/cmake-build-debug
+Departamentos/.idea
