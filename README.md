@@ -20,3 +20,8 @@ El programa automaticamente buscara que asiento esta disponible y cual no. En ca
 disponibilidad pues se le recomendará al usuario buscar disponibilidad en la otra sección.
 
 Si ya el avión esta ocupado totalmente, se cerrará el programa.
+
+## Todo_List
+
+En este ejercicio se crea una aplicacion la cual permita ir creando tareas y poder eliminarlas.
+En el mismo se hace uso de vectores y estructuras simples de C++11.
