@@ -22,10 +22,11 @@ disponibilidad pues se le recomendará al usuario buscar disponibilidad en la ot
 Si ya el avión esta ocupado totalmente, se cerrará el programa.
 
 ## Todo_List
-
 En este ejercicio se crea una aplicacion la cual permita ir creando tareas y poder eliminarlas.
 En el mismo se hace uso de vectores y estructuras simples de C++17.
 
 ## Complex
-
 En este ejercicio se crea un módulo que nos permita manejar numeros complejos y realizar las operaciones aritméticas básicas como: sumar, restar, multiplicar y dividir.
+
+## Fraction
+En este ejercicio se crea un módulo que nos permita manejar numeros fraccionarios y realizar las operaciones aritméticas básicas como: sumar, restar, multiplicar y dividir.
