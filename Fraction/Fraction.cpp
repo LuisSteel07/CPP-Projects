@@ -28,6 +28,9 @@ string Fraction::Simplified(int _num, int _denom){
     else if((_num*-1) == _denom){
         fraction = "-1";
     } 
+    else if((_num == 0) || (_denom == 0)){
+        fraction = "0";
+    }
     else {
         int i = 2;
         while(true){
